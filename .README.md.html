@@ -692,13 +692,14 @@ function setDocumentScrollTop(ypos)
 <ul> 
  <li>3.1 Saber las habitaciones que est&aacute;n ocupadas de una casa (tienen al menos un ocupante)</li> 
  <li>3.2 Saber los responsables de la casa, el cual es el conjunto formado por el ocupante m&aacute;s viejo de cada habitaci&oacute;n ocupada.</li> 
- <li>3.3 Saber el nivel de confort promedio de la familia, calculado como el nivel de confort de cada miembro dividido cantidad de miembros. El nivel de confort de un miembro es la sumatoria del confort que le aporta cada habitaci&oacute;n de la casa.</li> 
- <li>3.4 Saber si una familia est&aacute; a gusto, Para lo cual tiene que suceder que el nivel de confort promedio de la familia sea superior a 40 y cada miembro <em>se sienta a gusto</em>, lo cual depende de cada persona: 
+ <li>3.3 Saber el nivel de confort promedio de la familia, calculado como la suma del nivel de confort de cada miembro para la casa donde vive la familia, dividido cantidad de miembros.<br /> El nivel de confort de un miembro para una casa es la sumatoria del confort que le aporta cada habitaci&oacute;n de la casa.</li> 
+ <li>3.4 Saber si una familia est&aacute; a gusto, Para lo cual tiene que suceder que el nivel de confort promedio de la familia sea superior a 40 y cada miembro <em>se sienta a gusto</em> en la casa donde vive la familia. Esto &uacute;ltimo depende de c&oacute;mo sea la <em>persona</em>: 
   <ul> 
    <li> <strong>Obsesives</strong>: puede entrar en al menos una habitaci&oacute;n y todas las habitaciones tienen como m&aacute;ximo 2 ocupantes.</li> 
    <li> <strong>Goloses</strong>: puede entrar en al menos una habitaciṕn y al menos un miembro de la familia tiene habilidades de cocina.</li> 
    <li> <strong>Sencilles</strong>: puede entrar en al menos una habitaci&oacute;n y la casa tiene al menos 1 habitaci&oacute;n m&aacute;s que la cantidad de miembros de la familia (p.ej. si la familia tiene 4 integrantes, la casa debe tener 5 habitaciones o m&aacute;s).</li> 
   </ul> </li> 
-</ul>
+</ul> 
+<p><strong>Nota</strong><br /> Para preguntarle a una persona si se siente a gusto en una casa, vale pasarle dos par&aacute;metros: la casa y la familia.</p>
 </body>
 </html>

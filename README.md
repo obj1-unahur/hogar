@@ -90,13 +90,15 @@ La casa posee un conjunto de habitaciones.
 **Requerimientos** 
 - 3.1 Saber las habitaciones que están ocupadas de una casa (tienen al menos un ocupante)
 - 3.2 Saber los responsables de la casa, el cual es el conjunto formado por el ocupante más viejo de cada habitación ocupada.
-- 3.3 Saber el nivel de confort promedio de la familia, calculado como el nivel de confort de cada miembro 
-dividido cantidad de miembros. El nivel de confort de un miembro es la sumatoria del confort que le aporta 
-cada habitación de la casa.
+- 3.3 Saber el nivel de confort promedio de la familia, calculado como la suma del nivel de confort de cada miembro para la casa donde vive la familia, dividido cantidad de miembros.   
+El nivel de confort de un miembro para una casa es la sumatoria del confort que le aporta cada habitación de la casa.
 - 3.4 Saber si una familia está a gusto, 
 Para lo cual tiene que suceder que el nivel de confort promedio de la familia sea superior a 40
-y cada miembro _se sienta a gusto_, lo cual depende de cada persona:
+y cada miembro _se sienta a gusto_ en la casa donde vive la familia.
+Esto último depende de cómo sea la _persona_:
 	* **Obsesives**: puede entrar en al menos una habitación y todas las habitaciones tienen como máximo 2 ocupantes.
 	* **Goloses**: puede entrar en al menos una habitaciṕn y al menos un miembro de la familia tiene habilidades de cocina.
 	* **Sencilles**: puede entrar en al menos una habitación y la casa tiene al menos 1 habitación más que la cantidad de miembros de la familia (p.ej. si la familia tiene 4 integrantes, la casa debe tener 5 habitaciones o más).
 
+**Nota**  
+Para preguntarle a una persona si se siente a gusto en una casa, vale pasarle dos parámetros: la casa y la familia.
