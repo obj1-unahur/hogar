@@ -8,6 +8,10 @@ class Habitacion {
 	method puedeEntrarConGente(persona)
 	
 	method estaPresente(persona) = ocupantes.contains(persona)
+	
+	method estaOcupada() = not ocupantes.isEmpty()
+	
+	method ocupanteMasViejo() = ocupantes.max { pers => pers.edad() }
 }
 
 class UsoGeneral inherits Habitacion {
