@@ -67,13 +67,13 @@ Es decir, puede haber muchos ocupantes, pero como máximo un cocinero.
 - 2.1 Saber si una persona puede entrar en una habitación
 - 2.2 Saber los ocupantes de una habitacion.
 - 2.3 Que una persona entre en una habitación. (debe abandonar la habitacion previa donde estaba, 
-si es que estaba y quedarse en la nueva. 
+si es que estaba en alguna y quedarse en la nueva). 
 
 <br>
 
 **NOTAS**  
 - Asumir que al principio, todas las habitaciones están vacías, o sea, no tienen ningún ocupante, y ninguna persona está en una habitación, 
-- Tener en cuenta que que sucede si la persona no podía entrar y se solicita que ingrese igual.
+- Tener en cuenta qué sucede si la persona no podía entrar y se solicita que ingrese igual.
 - Depende de como armes el modelo, podrías necesitar o no una casa que contenga a las habitaciones
 para poder saber en que habitación está una persona.  Hay soluciones buenas que la necestian y soluciones
 buenas que no la necesitan. De todas maneras el concepto de casa surge en el siguiente punto.
